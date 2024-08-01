@@ -60,7 +60,11 @@ public class Application implements CommandLineRunner {
 
         //SubQuery();
 
-        whereIn();
+        //whereIn();
+
+        //create2();
+
+        update2();
 
     }
     /** curso 147 **/
@@ -538,7 +542,7 @@ public class Application implements CommandLineRunner {
         System.out.println("ingrese el apellido: " );
         String lastname= scanner.next();
 
-        System.out.println("ingrese el leguange de programacion: " );
+        System.out.println("ingrese el leguage de programacion: " );
         String programmingLanguaje = scanner.next();
         scanner.close();
 
